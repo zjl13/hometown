@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdeefd;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image: url('cherry-blossoms.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110% ; 
+    text-align: center; 
+}
+
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-size: 1.2em; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img[src="images.jpg"] {
+    width: 50%; 
+    height: auto;
+}
+
+
+img[src="image.jpg"] {
+    width: 60%; 
+    height: auto;
+}
+
+
+img[src="image1.jpg"] {
+    width: 60%;
+    height: auto;
+}
+
+h1, h2, h3, p {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #ff1493;
+    font-size: 8em;
+}
+
+h2 {
+    color: #ff69b4;
+}
+
+h3 {
+    color: #ff69b4;
+}
+
+p1{
+    font-size: 1.2em;
+    text-align: justify; 
+    text-justify: inter-ideograph;
+}
+p{
+    font-size: 2em;
+    color: #ff1493;
+}
+
+p:not(:last-child) {
+    margin-bottom: 20px; 
+}
